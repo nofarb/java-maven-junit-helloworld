@@ -4,10 +4,8 @@ pipeline {
           stage ("Build") {
 
                 steps{
-                    withMaven() {
-                        sh "./mvnw verify"
+                        sh "./mvn test"
                     }   
-                }
             }
             stage ("Deploy to CloudFoundry") {
                     
