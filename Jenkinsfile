@@ -2,10 +2,10 @@ pipeline {
     agent any
     stages {
           stage ("Build") {
-
-                steps{
-                        sh "./mvn test"
-                    }   
+            steps {
+                    echo 'fake build'
+                }
+ 
             }
             stage ("Deploy to CloudFoundry") {
                     
