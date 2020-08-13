@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- yada
 
 pool:
   vmImage: 'ubuntu-latest'
