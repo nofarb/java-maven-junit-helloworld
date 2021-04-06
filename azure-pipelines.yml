@@ -22,4 +22,4 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
     codeCoverageSourceDirectories: sdfsdfsd
-    codeCoverageFailIfEmpty: sdfsdds
+    codeCoverageFailIfEmpty: AAAAA
